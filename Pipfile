@@ -23,6 +23,7 @@ flask = "*"
 openpyxl = "*"
 xlrd = "*"
 pydot = "*"
+lxml = "*"
 
 [requires]
 python_version = "3.7"
