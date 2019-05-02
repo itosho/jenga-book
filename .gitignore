@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+stackoverflow/survey_results_public.csv
+stackoverflow/Developer_Survey_Instrument_2018.pdf
+stackoverflow/README_2018.txt
+stackoverflow/survey_results_schema.csv
