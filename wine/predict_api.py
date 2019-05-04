@@ -13,8 +13,7 @@ def predict():
     wine = request.json['wine']
     wine = np.array([wine])
 
-    label = clf.predict(wine)
-    label = label.tolist()
+    label = clf.predict(wine).tolist()
 
     return jsonify(dict(label=label[0]))
 
