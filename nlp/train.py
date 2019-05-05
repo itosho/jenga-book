@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# python train.py jawiki_corpus.txt jawiki_word2vec.bin
 
 import logging
 import multiprocessing

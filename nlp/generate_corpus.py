@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# python generate_corpus.py nif_context_ja.ttl.bz2 > jawiki_corpus.txt
+
 import bz2
 import sys
 import MeCab
