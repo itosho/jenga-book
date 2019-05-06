@@ -113,3 +113,4 @@ nlp/jawiki_word2vec.bin
 nlp/jawiki_word2vec.bin.trainables.syn1neg.npy
 nlp/jawiki_word2vec.bin.wv.vectors.npy
 nlp/jawiki_word2vec.txt
+nlp/.vector_cache/jawiki_word2vec.txt.pt
