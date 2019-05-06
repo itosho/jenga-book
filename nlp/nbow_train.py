@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# python 
+# python nbow_train.py text/ jawiki_word2vec.txt 50 32
 
 import sys
-import torch
+import torch # obtained https://github.com/pytorch/pytorch/issues/20030
 import torch.nn.functional as F
 from torchtext.data import Iterator
-from . import dataset
-from . import nbow_model
+import dataset
+import nbow_model
 
 
 def train(dataset_dir, emb_file, epoch, batch_size):
